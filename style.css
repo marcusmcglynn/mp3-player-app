@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500;700;800&display=swap');
+
+
+body {
+    background-color: #293241;
+    font-family: "Lora", serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.mp3-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+#mp3-container {
+    background-color: #E0FBFC;
+    height: 340px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#mp3-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #98C1D9;
+    height: 300px;
+    width: 550px;
+    margin: 0 auto;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+#button-container {
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(161, 207, 172);
+    height: 50px;
+    border-radius: 15px;
+    width: auto;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+#mp3-body {
+    order: 1;
+    background-color: #3D5A80;
+    height: 180px;
+    width: 500px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+#mp3-screen {
+    background-color: rgb(249, 248, 248);
+    display: flex;
+    flex-direction: column;
+    color: black;
+    height: 120px;
+    width: 420px;
+    border: solid 3px black;
+    border-radius: 5px;
+}

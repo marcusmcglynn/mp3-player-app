@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>MP3 Player</title>
+  </head>
+  <body>
+    <h1 id="title">Welcome to my MP3 player!</h1>
+    <h3>Please use the buttons below the screen to control songs</h3>
+    <div id="mp3-container" class="mp3-player">
+      <div id="mp3-background" class="mp3-player">
+        <div id="button-container">
+          <div>
+            <img class="buttons" id="back-btn" src="Images/back.png" alt="" />
+          </div>
+          <div>
+            <img
+              class="buttons"
+              id="play-btn"
+              src="Images/play-button.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              class="buttons"
+              id="pause-btn"
+              src="Images/pause-button.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <img class="buttons" id="next-btn" src="Images/next.png" alt="" />
+          </div>
+          <div></div>
+          <div></div>
+        </div>
+        <div id="mp3-body" class="mp3-player">
+          <div id="mp3-screen" class="mp3-player">
+            <p>Bracing</p>
+            <audio id="audio-playback" controls>
+              <source src="Audio/Bracing.wav" />
+            </audio>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
